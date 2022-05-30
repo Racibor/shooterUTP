@@ -3,6 +3,7 @@ package shooter.server.packet.packets;
 import shooter.server.packet.Packet;
 import shooter.server.packet.ServerPacketType;
 
+@DataPacket(type = ServerPacketType.HIT)
 public class HitPacket extends Packet {
 	
 	public int hittingId;

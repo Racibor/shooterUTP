@@ -1,6 +1,5 @@
 package shooter.server.packet.packets;
 
-import java.nio.ByteBuffer;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -8,6 +7,7 @@ import shooter.game.entity.Entity;
 import shooter.server.packet.Packet;
 import shooter.server.packet.ServerPacketType;
 
+@DataPacket(type = ServerPacketType.INITIAL)
 public class InitialPacket extends Packet {
 	
 	public int id;

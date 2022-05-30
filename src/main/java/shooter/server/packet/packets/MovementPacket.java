@@ -1,11 +1,9 @@
 package shooter.server.packet.packets;
 
-import java.io.ObjectOutputStream.PutField;
-import java.nio.ByteBuffer;
-
 import shooter.server.packet.Packet;
 import shooter.server.packet.ServerPacketType;
 
+@DataPacket(type = ServerPacketType.MOVE)
 public class MovementPacket extends Packet {
 	
 	public int id;

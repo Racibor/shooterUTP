@@ -4,6 +4,7 @@ import shooter.server.packet.Packet;
 import shooter.server.packet.ServerPacketType;
 
 
+@DataPacket(type = ServerPacketType.DEAD)
 public class DeadPacket extends Packet {
 	
 	public int id;

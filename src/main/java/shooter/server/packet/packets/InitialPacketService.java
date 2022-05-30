@@ -6,9 +6,8 @@ import shooter.game.entity.Entity;
 import shooter.game.entity.Player;
 import shooter.game.entity.Position;
 import shooter.server.packet.Packet;
-import shooter.server.packet.Parser;
 
-public class InitPacketService implements PacketService{
+public class InitialPacketService implements PacketService{
 	
 	@Override
 	public Packet fromByteBuffer(ByteBuffer buffer) {

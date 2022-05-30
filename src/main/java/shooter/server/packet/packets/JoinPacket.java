@@ -1,10 +1,9 @@
 package shooter.server.packet.packets;
 
-import java.nio.ByteBuffer;
-
 import shooter.server.packet.Packet;
 import shooter.server.packet.ServerPacketType;
 
+@DataPacket(type = ServerPacketType.JOIN)
 public class JoinPacket extends Packet {
 	
 	public JoinPacket() {
